@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="index.js"></script>
 </head>
 
 <body>
-    <div>
+    <!-- <div>
         <span>
             <ul>
                 <li>1haha<input type="button" value=""></li>
@@ -23,7 +24,33 @@
                 <li>10haha<input type="button" value=""></li>
             </ul>
         </span>
-    </div>
+    </div> -->
+    <script>
+        function Fnn() {
+            var i = 0;
+            return function () {
+                console.log(i++);
+            }
+        }
+        var f1 = Fnn();
+        f2 = Fnn();
+        f1();
+        f1();
+        f1();
+        f1();
+        f1();
+        f1();
+        f1();
+        f1();
+        f1();
+        f1();
+        f2();
+        f2();
+        f2();
+        f2();
+        f2();
+        f2();
+    </script>
 </body>
 
 </html>
